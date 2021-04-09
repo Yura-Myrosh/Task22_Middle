@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Table</title>
+    <style>
+        .content{
+            margin-top: 10%;
+            left: 50%;
+            align-self: center;
+            text-align: center;
+        }
+        td{
+            border: 1px solid #000000;
+            margin: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <label>Rows:<input id="rows" type="number" min="1" value=5></label>
+        <label>Cols:<input id="cols" type="number" min="1" value=5></label>
+        <p></p>
+        <button id="run">run</button><br><br>
+        <div id="table"></div>
+    </div>
+    <script src="tableCreation.js"></script>
+</body>
+</html>
